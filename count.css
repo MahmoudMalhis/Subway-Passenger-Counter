@@ -42,6 +42,12 @@ body {
   border: none;
 }
 
+@media (max-width: 767px) {
+  .box button {
+    font-size: 13px;
+  }
+}
+
 .box .inc {
   color: rgb(4, 112, 4);
   border: 2px solid rgb(4, 112, 4);
